@@ -6,11 +6,20 @@ const geistSans = Urbanist({
   subsets: ["latin"],
 });
 
-
-
 export const metadata: Metadata = {
   title: "Figgy",
-  description: "Figgy landing Page - staging",
+  description:
+    "Figgy is a smart plant care app that helps you track your plants, manage watering schedules, and stay on top of tasks—so your plants thrive effortlessly.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/android-chrome-512x512-3.png", sizes: "512x512", type: "image/png" },
+      { url: "/android-chrome-192x192-3.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -20,9 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable}   overflow-x-hidden antialiased`}
-      >
+      <body className={`${geistSans.variable}   overflow-x-hidden antialiased`}>
         {children}
       </body>
     </html>
