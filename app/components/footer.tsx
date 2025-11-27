@@ -3,10 +3,12 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="py-16 md:py-20 px-10">
+    <footer className="py-16 md:py-20 px-10 bg-[#FDFEFC]">
       <div className="flex justify-between gap-10 flex-col md:flex-row max-w-[1200px] my-0 mx-auto">
         <div className="w-full md:w-1/2">
-          <Image src={"/figgy-logo-large.svg"} alt="Figgy Logo" width={70} height={70} className="w-[70px]" />
+          <Link href={"/"}>
+            <Image src={"/figgy-logo.png"} alt="Figgy Logo" width={70} height={70} className="w-[60px] md:w-[70px]" />
+          </Link>
           <p className="pt-6 text-base text-[#4D644D] font-bold">Your personal, patient greenhouse mentor.</p>
 
           <p className="pt-6 md:pt-16 text-base text-[#4D644D] font-medium">© 2025 Figgy</p>
