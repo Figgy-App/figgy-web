@@ -42,9 +42,9 @@ export default function TestimonialsSlider() {
             slidesPerView={1}
             spaceBetween={10}
             onBeforeInit={(swiper) => {
-              // @ts-ignore
+              // @ts-expect-error override
               swiper.params.navigation.prevEl = prevRef.current;
-              // @ts-ignore
+              // @ts-expect-error override
               swiper.params.navigation.nextEl = nextRef.current;
             }}
           >
