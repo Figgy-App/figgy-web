@@ -26,7 +26,7 @@ export default function ContactForm() {
 
     if (res.ok) {
       setStatus("Message sent!");
-      e.currentTarget.reset();
+      // e.currentTarget.reset();
     } else {
       setStatus("Something went wrong");
     }
@@ -67,8 +67,8 @@ export default function ContactForm() {
                 <textarea name="message" placeholder="Message" required className="min-h-[200px] p-4 border border-[#EBEBEB] rounded-2xl placeholder-[#7B8C7B] placeholder-opacity-100" />
               </div>
 
-              <button disabled={loading} className="block w-full py-3 px-6 my-0 mx-auto md:m-0 text-sm md:text-base text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full">Send</button>
-              {status && <p className="text-xs text-[#7B8C7B]">{status}</p>}
+              <button disabled={loading} className="block w-full py-3 px-6 my-0 mx-auto md:m-0 text-sm md:text-base text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full cursor-pointer">Send</button>
+              {status && <p className="text-lg text-[#567951]">{status}</p>}
             </form>
           </div>
         </div>
