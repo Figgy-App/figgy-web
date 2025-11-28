@@ -19,10 +19,10 @@ export default function Footer() {
             <p className="text-base text-[#4D644D] font-bold">Navigation</p>
 
             <ul className="flex flex-col gap-4 pt-4">
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Home</li>
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Privacy Policy</li>
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Terms of Service</li>
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Subscriptions</li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Home</Link></li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Privacy Policy</Link></li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Terms of Service</Link></li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Subscriptions</Link></li>
             </ul>
           </nav>
 
@@ -30,8 +30,8 @@ export default function Footer() {
             <p className="text-base text-[#4D644D] font-bold">Contact</p>
 
             <ul className="flex flex-col gap-4 pt-4">
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Help center</li>
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Support</li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Help center</Link></li>
+              <li className="text-[#4D644D]"><Link href={"/support"} className="text-base no-underline">Support</Link></li>
             </ul>
           </nav>
 
@@ -39,8 +39,8 @@ export default function Footer() {
             <p className="text-base text-[#4D644D] font-bold">Follow us</p>
 
             <ul className="flex flex-col gap-4 pt-4">
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Instagram</li>
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline" />Facebook</li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Instagram</Link></li>
+              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Facebook</Link></li>
             </ul>
           </nav>
         </div>
