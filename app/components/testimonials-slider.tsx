@@ -14,7 +14,7 @@ export default function TestimonialsSlider() {
   const nextRef = useRef<HTMLButtonElement>(null);
 
   return (
-    <section className="testimonials-slider overflow-visible py-12 px-6 md:px-10 md:py-20 lg:py-32 xl:py-40 bg-white">
+    <section className="testimonials-slider overflow-visible py-12 px-6 md:px-10 md:py-20 lg:py-32 xl:py-40">
       <div className="flex flex-col md:flex-row items-center gap-10 max-w-[1200px] my-0 mx-auto px-6 md:px-10">
         <div className="w-full md:w-1/2">
           <p className="text-[28px] leading-8 text-[#424E42] font-semibold text-center md:text-4xl md:leading-10 xl:text-5xl xl:leading-none md:text-left">Healthy, happy plants  without the guesswork!</p>

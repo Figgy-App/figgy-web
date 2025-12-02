@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FeatureHighlight() {
   return (
-    <section className="py-16 px-6 md:px-10 md:py-20 lg:py-32 xl:py-40 bg-white">
+    <section className="py-16 px-6 md:px-10 md:py-20 lg:py-32 xl:py-40">
       <div className="relative max-w-[1200px] my-0 mx-auto p-0 sm:px-10">
         <Image src={"/icon-camera.svg"} alt="Camera Icon" width={80} height={80} className="w-[48px] md:w-[60px] lg:w-[70px] xl:w-[80px] absolute top-[48px] left-0" />
 

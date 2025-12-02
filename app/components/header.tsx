@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-6 bg-[#fff] md:py-7 md:px-10">
+    <header className="flex justify-between items-center p-6 md:py-7 md:px-10">
       <Link href={"/"}>
         <Image src={"/figgy-logo.png"} alt="Figgy Logo" width={48} height={48} className="" />
       </Link>

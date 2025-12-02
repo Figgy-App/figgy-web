@@ -33,7 +33,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="py-12 px-6 md:py-16 md:px-10 bg-[#fff]">
+    <section className="py-12 px-6 md:py-16 md:px-10">
       <div className="flex flex-col md:flex-row items-center gap-12 max-w-[1200px] my-0 mx-auto">
         <div className="w-full md:w-1/2">
           <h1 className="text-[28px] leading-8 text-[#424E42] font-semibold text-center md:text-left md:text-4xl md:leading-10 lg:text-5xl lg:leading-none">How can we help you?</h1>

@@ -19,7 +19,7 @@ export default function FaqAccordion({ items }: FAQProps) {
   };
 
   return (
-    <section className="py-12 px-6 md:px-10 md:py-20 lg:py-32 bg-[#fff]">
+    <section className="py-12 px-6 md:px-10 md:py-20 lg:py-32">
       <div className="max-w-[1200px] my-0 mx-auto">
         <h1 className="text-[28px] leading-8 text-[#424E42] font-semibold text-center md:text-4xl md:leading-10 lg:text-5xl lg:leading-none">
           Frequently Asked Questions
