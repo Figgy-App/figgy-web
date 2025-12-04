@@ -39,7 +39,7 @@ export default function ContactForm() {
           <h1 className="text-[28px] leading-8 text-[#424E42] font-semibold text-center md:text-left md:text-4xl md:leading-10 lg:text-5xl lg:leading-none">How can we help you?</h1>
           <p className="max-w-[400px] my-0 mx-auto md:max-w-[520px] md:m-0 pt-3 pb-5 text-sm text-[#7B8C7B] text-center md:text-left md:py-4 lg:py-6 md:text-base lg:text-lg">Our team is here to help you take care and grow your plants. 
             Check out the resources below and reach out directly if you have any questions.</p>
-          <Link href={"/"} className="block w-40 py-3 px-6 my-0 mx-auto md:m-0 text-sm md:text-base text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full button-shadow">
+          <Link href={"#faq"} className="block w-40 py-3 px-6 my-0 mx-auto md:m-0 text-sm md:text-base text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full button-shadow">
             Search FAQs
           </Link>
         </div>
@@ -49,7 +49,7 @@ export default function ContactForm() {
         >
           <div className="p-7 bg-[#fff] border border-[#EBEBEB] rounded-3xl">
             <p className="text-[28px] leading-8 md:text-3xl md:leading-[34px] text-[#424E42] font-semibold">Contact</p>
-            <p className="pt-2 pb-7 text-sm text-[#7B8C7B] md:text-base lg:text-lg">Lorem ipsum dolor sit amet adispiscing elit.</p>
+            <p className="pt-1 pb-7 text-sm text-[#7B8C7B] md:text-base">Send us a message and we’ll get back to you soon.</p>
             
             <form onSubmit={handleSubmit} className="flex flex-col gap-3">
               <div className="flex flex-col text-sm text-[#7B8C7B] md:text-base lg:text-lg">
