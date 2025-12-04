@@ -22,7 +22,7 @@ export default function TestimonialsSlider() {
 
           <Link href={"/"} className="flex justify-center items-center gap-2 w-60 py-3 px-6 my-0 mx-auto md:m-0 text-base text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full button-shadow">
             <Image src={"/icon-apple-white.svg"} alt="Icon Apple" width={18} height={24} className="" />
-            Download for iPhone
+            Coming Soon
           </Link>
         </div>
         
@@ -51,55 +51,51 @@ export default function TestimonialsSlider() {
             <SwiperSlide>
               <div className="min-h-[450px] px-10 py-12 bg-[#2E5129] rounded-3xl">
                 <Image src={"/icon-star-ratings.svg"} alt="Star Ratings" width={140} height={24} className="" />
-                <p className="pt-6 text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#E2F2C9] font-semibold">Figgy saved my Fiddle Leaf!</p>
+                <p className="pt-6 text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#E2F2C9] font-semibold">The BEST</p>
                 <p className="pt-6 text-base md:text-lg text-[#FDFEFC]">
-                  I used to kill every single plant I brought home, especially my temperamental Fiddle Leaf Fig. 
-                  I asked Figgy about the brown spots and the advice was instant and spot-on (I was overwatering!). 
-                  The whole app is gorgeous and easy to navigate, but Figgy is the real game-changer. 
-                  It’s like having a patient, expert gardener in your pocket, 24/7.
+                  I’m always busy and honestly used to forget about my plants for days. 
+                  Figgy makes it easy to stay on top of everything. The reminders fit into my routine and 
+                  the quick advice helps me fix problems fast. My plants look the best they ever have.
                 </p>
 
                 <div className="block w-[140px] h-[1px] mt-6 bg-[#4D644D]"></div>
 
-                <p className="pt-6 text-lg text-[#E2F2C9] font-semibold">Barry W.</p>
+                <p className="pt-6 text-lg text-[#E2F2C9] font-semibold">- Tony</p>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="min-h-[450px] px-10 py-12 bg-[#2E5129] rounded-3xl">
                 <Image src={"/icon-star-ratings.svg"} alt="Star Ratings" width={140} height={24} className="" />
-                <p className="pt-6 text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#E2F2C9] font-semibold">Test Slide 2</p>
+                <p className="pt-6 text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#E2F2C9] font-semibold">Thanks Figgy!!!</p>
                 <p className="pt-6 text-base md:text-lg text-[#FDFEFC]">
-                  I used to kill every single plant I brought home, especially my temperamental Fiddle Leaf Fig. 
-                  I asked Figgy about the brown spots and the advice was instant and spot-on (I was overwatering!). 
-                  The whole app is gorgeous and easy to navigate, but Figgy is the real game-changer. 
-                  It’s like having a patient, expert gardener in your pocket, 24/7.
+                  I knew NOTHING about plants. I’d water them and literally pray they stayed alive and they still died. 
+                  Figgy came through for me. The calendar feature and quick answers just make sense. 
+                  My plants are somehow thriving now and I’m shocked!!!
                 </p>
 
                 <div className="block w-[140px] h-[1px] mt-6 bg-[#4D644D]"></div>
 
-                <p className="pt-6 text-lg text-[#E2F2C9] font-semibold">Barry W.</p>
+                <p className="pt-6 text-lg text-[#E2F2C9] font-semibold">- Giftel</p>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="min-h-[450px] px-10 py-12 bg-[#2E5129] rounded-3xl">
                 <Image src={"/icon-star-ratings.svg"} alt="Star Ratings" width={140} height={24} className="" />
-                <p className="pt-6 text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#E2F2C9] font-semibold">Test Slide 3</p>
+                <p className="pt-6 text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#E2F2C9] font-semibold">Beginner-friendly and super easy to use</p>
                 <p className="pt-6 text-base md:text-lg text-[#FDFEFC]">
-                  I used to kill every single plant I brought home, especially my temperamental Fiddle Leaf Fig. 
-                  I asked Figgy about the brown spots and the advice was instant and spot-on (I was overwatering!).
+                  I didn’t want plants at first because I thought they were expensive and hard to maintain, 
+                  especially indoor ones. But Figgy made it crazy simple. The reminders and quick tips take away all the stress. 
+                  Now my plants are thriving and I’m not broke :D
                 </p>
 
                 <div className="block w-[140px] h-[1px] mt-6 bg-[#4D644D]"></div>
 
-                <p className="pt-6 text-lg text-[#E2F2C9] font-semibold">Barry W.</p>
+                <p className="pt-6 text-lg text-[#E2F2C9] font-semibold">- Audrey</p>
               </div>
             </SwiperSlide>
-
           </Swiper>
-
-          
         </div>
       </div>
     </section>

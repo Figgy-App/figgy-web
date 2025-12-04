@@ -10,7 +10,7 @@ export default function Header() {
       <Link href={"/"} className="flex items-center gap-2 py-3 px-6 
         text-sm text-[#4D644D] text-center bg-[#F3FAE9] border-solid border-[#F3FAE9] rounded-full md:text-base">
         <Image src={"/icon-apple-basil.svg"} alt="Icon Apple" width={18} height={24} className="" />
-        Download for iPhone
+        Coming Soon
       </Link>
     </header>
   );

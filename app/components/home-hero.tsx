@@ -17,7 +17,7 @@ export default function HomeHero() {
           <Link href={"/"} className="flex justify-center items-center gap-2 w-52 md:w-60 py-3 px-6 my-0 mx-auto 
             text-sm text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full button-shadow md:text-base">
             <Image src={"/icon-apple-white.svg"} alt="Icon Apple" width={18} height={24} className="" />
-            Download for iPhone
+            Coming Soon
           </Link>
         </div>
 

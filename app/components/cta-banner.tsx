@@ -8,7 +8,7 @@ export default function CtaBanner() {
         <p className="text-xl leading-[28px] md:text-2xl md:leading-[30px] lg:text-3xl lg:leading-[38px] text-[#fff] font-semibold text-center md:text-left">Download Figgy now on iOS</p>
         <Link href={"/"} className="flex items-center justify-center gap-2 w-52 my-0 mx-auto md:w-60 md:m-0 py-3 px-6 text-sm md:text-base text-[#4D644D] text-center bg-[#F3FAE9] border-solid border-[#F3FAE9] rounded-full">
           <Image src={"/icon-apple-basil.svg"} alt="Icon Apple" width={18} height={24} className="" />
-          Download for iPhone
+          Coming Soon
         </Link>
       </div>
     </section>
