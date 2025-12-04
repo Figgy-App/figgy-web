@@ -22,7 +22,7 @@ export default function Footer() {
               <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Home</Link></li>
               <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Privacy Policy</Link></li>
               <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Terms of Service</Link></li>
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Subscriptions</Link></li>
+              {/* <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Subscriptions</Link></li> */}
             </ul>
           </nav>
 
@@ -30,7 +30,7 @@ export default function Footer() {
             <p className="text-base text-[#4D644D] font-bold">Contact</p>
 
             <ul className="flex flex-col gap-4 pt-4">
-              <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Help center</Link></li>
+              {/* <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Help center</Link></li> */}
               <li className="text-[#4D644D]"><Link href={"/support"} className="text-base no-underline">Support</Link></li>
             </ul>
           </nav>
