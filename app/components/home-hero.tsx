@@ -9,10 +9,10 @@ export default function HomeHero() {
         style={{ background: "linear-gradient(180deg, #fff 34.84%, #B8E2A6 111.34%)" }}
       >
         <div className="max-w-3xl my-0 mx-auto">
-          <h1 className="text-[28px] leading-8 text-[#424E42] font-semibold text-center md:text-4xl md:leading-10 lg:text-5xl lg:leading-none">
+          <div className="text-[28px] leading-8 text-[#424E42] font-semibold text-center md:text-4xl md:leading-10 lg:text-5xl lg:leading-none">
             <span className="block">Meet Figgy.</span>
             <span className="block">Your plant’s new best friend.</span>
-            </h1>
+          </div>
           <p className="pt-3 pb-5 text-sm text-[#7B8C7B] text-center md:py-4 lg:py-6 md:text-base lg:text-lg">Care for your plants, the smart way. Scan. Learn. Grow.</p>
           <Link href={"/"} className="flex justify-center items-center gap-2 w-52 md:w-60 py-3 px-6 my-0 mx-auto 
             text-sm text-[#fff] text-center bg-[#567951] border-solid border-[#567951] rounded-full button-shadow md:text-base">

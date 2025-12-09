@@ -7,6 +7,15 @@ import TestimonialsSlider from "./components/testimonials-slider";
 export default function Home() {
   return (
     <main>
+      {/* Custom SEO headings (hidden) */}
+      <h1 className="sr-only">Meet Figgy Your plant&apos;s new best friend</h1>
+      <h2 className="sr-only">Care for your plants the smart way</h2>
+      <h2 className="sr-only">Your personal plant care assistant</h2>
+      <h2 className="sr-only">Understand every plant&apos;s unique needs</h2>
+      <h2 className="sr-only">Bring your plants back to life</h2>
+      <h2 className="sr-only">Healthy, happy plants without the guesswork</h2>
+      <h2 className="sr-only">Download Figgy on iOS</h2>
+
       <HomeHero />
       <FeatureHighlight />
       <PlantCareFeatures />

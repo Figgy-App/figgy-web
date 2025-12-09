@@ -9,7 +9,7 @@ export default function FeatureHighlight() {
         <div className="relative max-w-[940px] my-0 mx-auto">
           <Image src={"/icon-water-drop.svg"} alt="Water Drop Icon" width={80} height={80} className="w-[48px] md:w-[60px] lg:w-[70px] xl:w-[80px] absolute top-[-40px] left-0" />
           
-          <h2 className="max-w-[280px] my-0 mx-auto text-[28px] leading-[36px] text-[#424E42] text-center md:max-w-[340px] lg:max-w-[620px] md:text-4xl md:leading-[46px] lg:text-5xl lg:leading-[58px]"><span className="font-semibold">Let Figgy remind you when your plants need love—</span> water, light, and care.</h2>
+          <div className="max-w-[280px] my-0 mx-auto text-[28px] leading-[36px] text-[#424E42] text-center md:max-w-[340px] lg:max-w-[620px] md:text-4xl md:leading-[46px] lg:text-5xl lg:leading-[58px]"><span className="font-semibold">Let Figgy remind you when your plants need love—</span> water, light, and care.</div>
           <p className="max-w-[280px] my-0 mx-auto pt-6 text-base text-[#7B8C7B] text-center md:text-lg md:max-w-[100%]">Scan, set reminders, and watch your plants thrive instead of wilt.</p>
           
           <Image src={"/icon-alert-tag.svg"} alt="Alert Tag Icon" width={80} height={80} className="w-[48px] md:w-[60px] lg:w-[70px] xl:w-[80px] absolute top-[-40px] right-0" />
