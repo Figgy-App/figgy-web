@@ -35,14 +35,14 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <nav>
+          {/* <nav>
             <p className="text-base text-[#4D644D] font-bold">Follow us</p>
 
             <ul className="flex flex-col gap-4 pt-4">
               <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Instagram</Link></li>
               <li className="text-[#4D644D]"><Link href={"/"} className="text-base no-underline">Facebook</Link></li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </footer>
