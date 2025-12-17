@@ -1,27 +1,54 @@
-import Image from "next/image";
-import { Urbanist } from "next/font/google";
+import CtaBanner from "./components/cta-banner";
+import FeatureHighlight from "./components/feature-highlight";
+import HomeHero from "./components/home-hero";
+import PlantCareFeatures from "./components/plant-care-features";
+import TestimonialsSlider from "./components/testimonials-slider";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-screen relative overflow-hidden bg-[radial-gradient(circle_at_center,rgba(146,220,139,0.45)_0%,rgba(146,220,139,0.25)_25%,transparent_100%)]">
-      <Image
-        src={"/figgy-bg.png"}
-        height={1040}
-        width={1820}
-        alt="Figgy-bg"
-        className="relative hidden md:flex z-10"
-      />
-      <Image
-        src={"/figgy-mobile.png"}
-        height={874}
-        width={402}
-        alt="Figgy-bg"
-        className="relative flex md:hidden z-10"
-      />
+    <main>
+      {/* Custom SEO headings (hidden) */}
+      <h1 className="sr-only">Meet Figgy Your plant&apos;s new best friend</h1>
+      <h2 className="sr-only">Care for your plants the smart way</h2>
+      <h2 className="sr-only">Your personal plant care assistant</h2>
+      <h2 className="sr-only">Understand every plant&apos;s unique needs</h2>
+      <h2 className="sr-only">Bring your plants back to life</h2>
+      <h2 className="sr-only">Healthy, happy plants without the guesswork</h2>
+      <h2 className="sr-only">Download Figgy on iOS</h2>
 
-      <p className=" text-[20px] md:text-[48px] absolute text-[#4D644D]  bottom-10 z-10">
-        Coming Soon...
-      </p>
-    </div>
+      <HomeHero />
+      <FeatureHighlight />
+      <PlantCareFeatures />
+      <TestimonialsSlider />
+      <CtaBanner />
+    </main>
   );
 }
+
+// import Image from "next/image";
+// import { Urbanist } from "next/font/google";
+
+// export default function Home() {
+//   return (
+//     <div className="flex flex-col justify-center items-center w-full h-screen relative overflow-hidden bg-[radial-gradient(circle_at_center,rgba(146,220,139,0.45)_0%,rgba(146,220,139,0.25)_25%,transparent_100%)]">
+//       <Image
+//         src={"/figgy-bg.png"}
+//         height={1040}
+//         width={1820}
+//         alt="Figgy-bg"
+//         className="relative hidden md:flex z-10"
+//       />
+//       <Image
+//         src={"/figgy-mobile.png"}
+//         height={874}
+//         width={402}
+//         alt="Figgy-bg"
+//         className="relative flex md:hidden z-10"
+//       />
+
+//       <p className=" text-[20px] md:text-[48px] absolute text-[#4D644D]  bottom-10 z-10">
+//         Coming Soon...
+//       </p>
+//     </div>
+//   );
+// }
